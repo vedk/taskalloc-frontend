@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Dashboard</title>
+	<script type="text/javascript" src="./bundle.js"></script>
+</head>
+<body onload="init_event()">
+<h1>Dashboard</h1>
+<h2>Inspect Event</h2>
+<hr/>
+Name: <input type="text" id="evname">
+Desc: <input type="text" id="evdesc">
+<br/>
+Assigned Coordinators
+<ol id="coordie_ol">
+</ol>
+Assign Coordinators with IDs: <input type="text" id="newcids" placeholder="1,2,3" /><br/>
+<button onclick="update_event()">Update Event</button>
+</body>
+</html>
